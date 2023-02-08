@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello this is for the second commit!")
+        ZStack {
+            
+            Color.red.ignoresSafeArea(.all)
+            Text("Hello this is for the second commit!").padding()
+            
         }
-        .padding()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
